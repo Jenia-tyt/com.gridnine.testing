@@ -1,7 +1,7 @@
-package task;
+package com.gridnine.testing.task;
 
-import task.filtres.Filter;
-import task.testClasses.Flight;
+import com.gridnine.testing.task.filtres.Filter;
+import com.gridnine.testing.task.testClasses.Flight;
 
 import java.util.ArrayList;
 import java.util.List;

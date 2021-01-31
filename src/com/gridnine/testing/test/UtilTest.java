@@ -1,17 +1,17 @@
-package test;
+package com.gridnine.testing.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 
-import task.Util;
-import task.filtres.FilterBeforeTimeDepartureNow;
-import task.filtres.FilterSegmentsWithArrivalBeforeDeparture;
-import task.filtres.FilterTimeOnEarth;
-import task.testClasses.Flight;
+import com.gridnine.testing.task.Util;
+import com.gridnine.testing.task.filtres.FilterBeforeTimeDepartureNow;
+import com.gridnine.testing.task.filtres.FilterSegmentsWithArrivalBeforeDeparture;
+import com.gridnine.testing.task.filtres.FilterTimeOnEarth;
+import com.gridnine.testing.task.testClasses.Flight;
 
 import java.util.List;
 
-import static test.DataFlight.*;
+import static com.gridnine.testing.test.DataFlight.*;
 
 class UtilTest {
 

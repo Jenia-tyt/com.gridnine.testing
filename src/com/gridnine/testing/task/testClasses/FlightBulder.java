@@ -1,4 +1,4 @@
-package task.testClasses;
+package com.gridnine.testing.task.testClasses;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

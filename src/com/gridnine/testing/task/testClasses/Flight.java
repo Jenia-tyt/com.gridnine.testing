@@ -1,4 +1,4 @@
-package task.testClasses;
+package com.gridnine.testing.task.testClasses;
 
 import java.util.List;
 import java.util.Objects;

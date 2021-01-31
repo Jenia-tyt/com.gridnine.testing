@@ -1,10 +1,10 @@
-package task;
+package com.gridnine.testing.task;
 
-import task.filtres.FilterBeforeTimeDepartureNow;
-import task.filtres.FilterSegmentsWithArrivalBeforeDeparture;
-import task.filtres.FilterTimeOnEarth;
-import task.testClasses.Flight;
-import task.testClasses.FlightBulder;
+import com.gridnine.testing.task.filtres.FilterBeforeTimeDepartureNow;
+import com.gridnine.testing.task.filtres.FilterSegmentsWithArrivalBeforeDeparture;
+import com.gridnine.testing.task.filtres.FilterTimeOnEarth;
+import com.gridnine.testing.task.testClasses.Flight;
+import com.gridnine.testing.task.testClasses.FlightBulder;
 
 import java.util.List;
 

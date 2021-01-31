@@ -1,10 +1,10 @@
-package task.filtres;
+package com.gridnine.testing.task.filtres;
 
-import task.testClasses.Flight;
+import com.gridnine.testing.task.testClasses.Flight;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-import static task.FormatterTime.formatterTime;
+import static com.gridnine.testing.task.FormatterTime.formatterTime;
 
 public class FilterBeforeTimeDepartureNow implements Filter{
     private final String name;

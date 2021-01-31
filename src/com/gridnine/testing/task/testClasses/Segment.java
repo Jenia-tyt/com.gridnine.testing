@@ -1,9 +1,9 @@
-package task.testClasses;
+package com.gridnine.testing.task.testClasses;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-import static task.FormatterTime.formatterTime;
+import static com.gridnine.testing.task.FormatterTime.formatterTime;
 
 public class Segment {
     private final LocalDateTime departureDate;

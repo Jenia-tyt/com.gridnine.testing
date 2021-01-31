@@ -1,6 +1,6 @@
-package task.filtres;
+package com.gridnine.testing.task.filtres;
 
-import task.testClasses.Flight;
+import com.gridnine.testing.task.testClasses.Flight;
 
 import java.util.Objects;
 

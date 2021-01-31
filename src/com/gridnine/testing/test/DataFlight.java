@@ -1,14 +1,14 @@
-package test;
+package com.gridnine.testing.test;
 
-import task.testClasses.Flight;
+import com.gridnine.testing.task.testClasses.Flight;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static task.testClasses.FlightBulder.createFlight;
-import static task.testClasses.FlightBulder.createFlights;
+import static com.gridnine.testing.task.testClasses.FlightBulder.createFlight;
+import static com.gridnine.testing.task.testClasses.FlightBulder.createFlights;
 
 public class DataFlight {
     protected static final List<Flight> ALL_FLIGHTS = createFlights();

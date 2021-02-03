@@ -17,7 +17,7 @@ public class Util {
                     .filter(filter::filter)
                     .forEach(result::add);
         } catch (NullPointerException e){
-            System.out.println("Flight does't be null for filter [" + filter.getName() + "]");
+            System.out.println("Flight doesn't be null for filter [" + filter.getName() + "]");
         }
         return result;
     }
@@ -37,7 +37,7 @@ public class Util {
                 }
             });
         } catch (NullPointerException e) {
-            System.out.println("Flight does't be null for filter");
+            System.out.println("Flight doesn't be null for filter");
         }
         return result;
     }
